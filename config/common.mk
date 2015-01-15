@@ -74,22 +74,23 @@ PRODUCT_PACKAGES += \
     su
 
 # Optional packages
-PRODUCT_PACKAGES += \
-    Basic \
-    LiveWallpapersPicker \
-    PhaseBeam
+# PRODUCT_PACKAGES += \
+#    Basic \
+#    LiveWallpapersPicker \
+#    PhaseBeam
 
 # AudioFX
-PRODUCT_PACKAGES += \
-    AudioFX
+#PRODUCT_PACKAGES += \
+#    AudioFX
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
     SlimCenter \
     SlimLauncher \
     LatinIME \
-    BluetoothExt \
-    DashClock
+    BluetoothExt
+
+#    DashClock
 
 #    SlimFileManager removed until updated
 
