@@ -72,7 +72,8 @@ PRODUCT_PACKAGES += \
     SpareParts \
     Superuser \
     su \
-    SimpleExplorer
+    SimpleExplorer \
+    TitaniumBackup
 
 # Optional packages
 # PRODUCT_PACKAGES += \
