@@ -74,7 +74,8 @@ PRODUCT_PACKAGES += \
     su \
     SimpleExplorer \
     TitaniumBackup \
-    viper4android
+    viper4android \
+    kdeconnect
 
 # Optional packages
 # PRODUCT_PACKAGES += \
