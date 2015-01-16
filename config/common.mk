@@ -73,7 +73,8 @@ PRODUCT_PACKAGES += \
     Superuser \
     su \
     SimpleExplorer \
-    TitaniumBackup
+    TitaniumBackup \
+    viper4android
 
 # Optional packages
 # PRODUCT_PACKAGES += \
@@ -118,6 +119,10 @@ endif
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
 
+# V4A
+PRODUCT_COPY_FILES += \
+ 	vendor/slim/prebuilt/common/etc/viper4android/viper4android.apk:system/app/Viper4Android/viper4android.apk
+ 	
 PRODUCT_PACKAGE_OVERLAYS += vendor/slim/overlay/common
 
 # Boot animation include
