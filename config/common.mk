@@ -72,10 +72,10 @@ PRODUCT_PACKAGES += \
     SpareParts \
     Superuser \
     su \
-    SimpleExplorer \
     TitaniumBackup \
     viper4android \
     kdeconnect
+
 
 # Optional packages
 # PRODUCT_PACKAGES += \
